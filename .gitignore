@@ -1,25 +1,23 @@
-# CakePHP 3
+/nbproject/private/
+/node_modules/
+project.xml
+project.properties
+.DS_Store
+Thumbs.db
+.buildpath
+.project
+.settings*
+sftp-config.json
+/deploy/
+/vendor/
+/tmp/
+/build/
 
-/vendor/*
-/config/app.php
+# Ignore lib/wpjm_rest but keep folder
+lib/wpjm_rest/*
+!lib/wpjm_rest/.gitkeep
+tmp/mt
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
-
+# Ignore all log files except for .htaccess
 /logs/*
-!/logs/empty
-
-# CakePHP 2
-
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+!/logs/.htaccess
